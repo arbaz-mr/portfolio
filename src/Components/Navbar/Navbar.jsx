@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
@@ -34,6 +35,7 @@ const Navbar = () => {
     { id: "experience", label: "Experience" },
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
+    {id:"contact",label:"Contact"}
   ];
 
   return (
@@ -45,10 +47,11 @@ const Navbar = () => {
       <div className="text-white py-5 flex justify-between items-center">
         {/* Logo */}
         <div className="text-lg font-semibold cursor-pointer">
-          <span className="text-[#8245ec]">&lt;</span>
+          
+           <span className="text-[#8245ec]">&lt;</span>
           <span className="text-white">ARBAZ</span>
           <span className="text-[#8245ec]">/</span>
-          <span className="text-[#8245ec]">&gt;</span>
+          <span className="text-[#8245ec]">&gt;</span> 
         </div>
 
         {/* Desktop Menu */}

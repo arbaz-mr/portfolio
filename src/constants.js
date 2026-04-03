@@ -16,7 +16,7 @@ import netlifyLogo from './assets/Tech/netlify.png';
 import wordpressLogo from './assets/Tech/Wordpress.png';
 import chatgptLogo from './assets/Tech/Chatgpt.png';
 
-
+                                                                                                                       
 // Experience Section Logo's
 import nsicLogo from './assets/Company/NSIC.png';
 import startekLogo from './assets/Company/startek.png';
@@ -142,6 +142,6 @@ export const SkillsInfo = [
         "My personal Portfolio website to showcase my tech skills on varios paltfrom by website.",
       image: myportfolioLogo,
       tags: ["HTML", "CSS", "JavaScript", "React.Js", "Tailwind.CSS"],
-      github: "https://github.com/arbaz-mr/Portfolio"
+      github: "https://github.com/arbaz-mr/Portfolio",
     }
   ];  
