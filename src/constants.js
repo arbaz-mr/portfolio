@@ -18,9 +18,10 @@ import chatgptLogo from './assets/Tech/chatgpt.png';
 
 // Experience Section Logo's
 import nsicLogo from './assets/Company/NSIC.png';
+import startekLogo from './assets/Company/startek.png';
 
 // Education Section Logo's
-import avnLogo from './assets/Education/AVN.png';
+import avnLogo from './assets/Education/AVN.webp';
 import rjgpLogo from './assets/Education/RJGP.png';
 
 // Project Section Logo's
@@ -84,11 +85,27 @@ export const SkillsInfo = [
         "Android Studio",
       ],
     },
+    {
+      id: 0,
+      img: startekLogo,
+      role: "Executive Opertions",
+      company: "Startek",
+      date: "July 2025 - Present",
+      desc: "This role typically involves customer support or technical support, handling inbound/outbound calls, chats, or emails. The focus is on resolving client issues, meeting Key Performance Indicators (KPIs), and providing exceptional service.",
+      skills: [
+        "Customer Service Skills",
+        "Communication Skills",
+        "Active Listening & Empathy",
+        "Problem Solving",
+        "Basic Troubleshooting",
+        "Teamwork & Collaboration",
+      ]
+    }
   ];
   
   export const education = [
     {
-      id: 0,
+      id: 1,
       img: rjgpLogo,
       school: "Raja Jait Singh Government Polytechnic, Neemka",
       date: "Sept 2022 - July 2025",
