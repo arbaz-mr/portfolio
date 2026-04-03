@@ -14,7 +14,7 @@ import vscodeLogo from './assets/Tech/vscode.png';
 import figmaLogo from './assets/Tech/figma.png';
 import netlifyLogo from './assets/Tech/netlify.png';
 import wordpressLogo from './assets/Tech/Wordpress.png';
-import chatgptLogo from './assets/Tech/chatgpt.png';
+import chatgptLogo from './assets/Tech/Chatgpt.png';
 
 
 // Experience Section Logo's
